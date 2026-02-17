@@ -1,4 +1,4 @@
-include: "/models/thelook.model"
+include: "/models/thelook_ecommerce.model"
 explore: +order_items {
   aggregate_table: rollup__products_brand__products_category__products_item_name {
     query: {

@@ -1,4 +1,4 @@
-connection: "looker-private-demo"
+connection: "jacqui_lags_pbl"
 label: "eCommerce"
 include: "/queries/queries*.view" # includes all queries refinements
 include: "/views/**/*.view" # include all the views
@@ -21,7 +21,7 @@ datagroup: ecommerce_etl_modified {
 persist_with: ecommerce_etl_modified
 ############ Base Explores #############
 
-
+explore: bqml_sales_and_historical {}
 explore: order_items {
   label: "(1) Orders, Items and Users"
   view_name: order_items
